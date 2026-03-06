@@ -1,0 +1,16 @@
+# /opt/llm-platform/config/models.yaml
+# Only the FIRST model with enabled: true is loaded by vLLM.
+# Edit and run ./scripts/reload.sh to apply changes.
+
+models:
+  - id: meta-llama/Meta-Llama-3.1-8B-Instruct
+    enabled: true
+    dtype: bfloat16
+    max_model_len: 32768
+    gpu_memory_utilization: 0.90
+    max_num_batched_tokens: 16384
+    enable_chunked_prefill: true
+
+server:
+  host: 0.0.0.0
+  port: 8000
