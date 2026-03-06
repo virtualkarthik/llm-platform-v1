@@ -288,10 +288,7 @@ __pycache__/
 | Version | Planned Features |
 |---|---|
 | **v1** ✅ | Llama 3.1 8B · vLLM · Open WebUI · systemd · logging |
-| **v2** | DeepSeek R1 7B support · model switching |
-| **v3** | BGE-M3 embeddings · RAG document Q&A |
-| **v4** | SSO / Azure AD OAuth · user management |
-| **v5** | NGINX reverse proxy · HTTPS · domain |
+
 
 ---
 
