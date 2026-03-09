@@ -306,5 +306,3 @@ __pycache__/
 | MIG mode blocking GPU | `sudo nvidia-smi -i 0 -mig 0` then reboot |
 
 ---
-
-*LTIMindtree — Infrastructure Business Unit · Internal Use Only*
